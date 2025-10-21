@@ -13,5 +13,37 @@
     <link rel="stylesheet" href="./assets/style/golobal.css" />
     <title>Frontend Mentor | Workit landing page</title>
   </head>
-  <body></body>
+  <body>
+    <section class="hero">
+      <div class="hero--section container">
+        <div class="hero--intro">
+          <div class="hero--intro__header">
+            <h1 class="hero--intro__title">Maximize skill, minimize budget</h1>
+            <p class="hero--intro__description">
+              Our modern courses across a range of in-demand skills will give
+              you the knowledge you need to live the life you want.
+            </p>
+          </div>
+          <a href="" class="btn btn--orange--primery"> Get Started</a>
+        </div>
+        <picture class="hero--item">
+          <source
+            media="(width < 48rem)"
+            srcset="./assets/images/image-hero-mobile.png"
+          />
+          <source
+            media="(width < 64rem)"
+            srcset="./assets/images/image-hero-tablet.png"
+            class="hero--img"
+          />
+
+          <img
+            src="./assets/images/image-hero-desktop.webp"
+            class="hero--img"
+            alt="women drinking cafee"
+          />
+        </picture>
+      </div>
+    </section>
+  </body>
 </html>

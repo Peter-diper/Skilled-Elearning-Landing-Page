@@ -296,3 +296,15 @@ body {
     transform: scale(2.2) translate(10rem, -3rem);
   }
 }
+
+/* footer */
+.footer {
+  position: relative;
+  background-color: var(--color-blue-900);
+}
+.footer--wrapper {
+  padding: var(--space-300) clamp(var(--space-250), 5vw, var(--space-1000));
+}
+.footer .btn {
+  position: relative;
+}

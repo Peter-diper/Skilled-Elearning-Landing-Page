@@ -139,6 +139,7 @@ body {
   justify-items: center;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   padding: 6.4rem 1rem;
+  padding-bottom: clamp(var(--space-1000), 10vw, var(--space-1800));
   justify-self: center;
 }
 .content--card {
